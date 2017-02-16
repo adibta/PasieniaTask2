@@ -19,7 +19,7 @@ public class SelectorActivity extends AppCompatActivity {
         loginRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SelectorActivity.this,MainActivity.class);
+                Intent intent = new Intent(SelectorActivity.this,LoginRegisterActivity.class);
                 startActivity(intent);
             }
         });
